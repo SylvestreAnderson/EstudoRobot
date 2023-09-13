@@ -1,0 +1,37 @@
+################################################# MASSA DE QA ######################################################################
+# api_boleto_deposito:
+#   endpoint: http://wsih/GBDP001/api/boleto
+#   auth: Basic dGhpYWdvLm9yZmFubzp4VXoxTkJKZnVZb3g=
+#   nome: BMG Automacao
+#   logradouro: Rua Automacao, 10
+#   bairro: Automacao Back
+#   cidade: Automacao
+#   uf: MG
+#   cep: 30315010
+#   produto: 8734
+  
+
+# api_boleto_fatura_cobranca:
+#   endpoint: https://apisandbox.bancobmg.com.br:8443/v1/pagamento/parcerias/boletos
+#   auth: Bearer Token Y3BwMDExOmNwcDAxMQ==
+#   cod_convenio_fatura: 550500333 
+#   cod_convenio_cobranca: 50701021 
+#   logradouro: Rua Automacao, 10
+#   bairro: Automacao Back
+#   cidade: Automacao
+#   uf: MG
+#   cep: 30315010
+#   especie_fatura: Cartao_de_credito
+#   especie_conbranca: DM_Duplicata_Mercantil
+#   cpf: 01074412461
+
+api_boleto:
+  endpoint: http://wsih/GBDP001/api/boleto
+  auth: Basic dGhpYWdvLm9yZmFubzp4VXoxTkJKZnVZb3g=
+  logradouro: Rua Wilson Cunha, 10
+  bairro: São Jorge
+  cidade: Uberlândia
+  uf: MG
+  cep: 38410196
+  nome: Felipe Santos Alves
+  produto: 8734
